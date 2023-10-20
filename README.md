@@ -1,21 +1,6 @@
 # Push Faucet Bot
 
-The Push Faucet Bot is a Telegram bot designed to distribute $PUSH test tokens for the Goerli testnet. This bot allows users to experience the power of Push Protocol by providing them with test tokens, which they can use on the Goerli testnet.
-
-## Table of Contents
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Commands](#commands)
-  - [/start](#start)
-  - [/receivetokens](#receivetokens)
-  - [/help](#help)
-  - [/about](#about)
-  - [/community](#community)
-- [Functionality](#functionality)
-  - [Interaction Flow](#interaction-flow)
-  - [Token Distribution Logic](#token-distribution-logic)
+The Push Faucet Bot is a Telegram bot designed to distribute $PUSH test tokens for the Goerli testnet.
 
 
 ## Getting Started
@@ -34,10 +19,7 @@ Before using the Push Faucet Bot, ensure you have the following prerequisites:
 ### Installation
 
 1. Clone the repository to your local machine:
-   ```
-   git clone https://github.com/Shivam-mishra2/push-faucet-bot.git
-   cd push-faucet-bot
-   ```
+  
 2. Install the required npm packages:
    ```
    npm install
@@ -58,11 +40,11 @@ The Push Faucet Bot is designed to distribute $PUSH test tokens for the Goerli t
 
 
 ### /start
-The /start command initiates a conversation with the bot. It provides users with an overview of the bot's functionality and how to get started.
+The /start command is used to initiate the conversation.
 
 
 ### /receivetokens
-The /receivetokens command prompts users to provide their Goerli testnet address. The bot will then send the specified amount of $PUSH tokens to the provided address. Users will also receive a transaction link to check the status of the transaction on Goerli Etherscan.
+The /receivetokens command prompts users to provide their Goerli testnet address. The bot will then send the specified amount of $PUSH tokens to the provided address.
 
 
 ### /help
@@ -70,12 +52,11 @@ The /help command displays a message explaining the available commands and how t
 
 
 ### /about
-The /about command provides information about the Push Faucet Bot and its purpose. It explains how users can receive $PUSH test tokens and use them on the Goerli testnet.
+The /about command provides information about the Push Faucet Bot.
 
 
 ### /community
-The /community command encourages users to join the Push Protocol community. It provides links to the community's Telegram group, Discord server, website, and Twitter account.
-
+The /community command encourages users to join the Push Protocol community.
 
 ## Functionality
 
